@@ -1,13 +1,13 @@
 /* Range slider */
 :root {
-    --range-thumb-size: 40px;
+    --range-thumb-size: 50px;
 }
 
 input[type=range] {
     appearance: none;
     background: #ccc;
-    border-radius: 6px;
-    height: 10px;
+    border-radius: 8px;
+    height: 12px;
     margin-top: (--range-thumb-size - 6px) * 0.5;
     margin-bottom: (--range-thumb-size - 6px) * 0.5;
     --thumb-size: #{--range-thumb-size};
@@ -21,7 +21,7 @@ input[type=range]::-webkit-slider-thumb {
     background-position: center;
     background-repeat: no-repeat;
     border: 0;
-    border-radius: 50%;
+    border-radius: 30%;
     cursor: pointer;
     height: --range-thumb-size;
     width: --range-thumb-size;
@@ -34,7 +34,7 @@ input[type=range]::-moz-range-thumb {
     background-repeat: no-repeat;
     border: 0;
     border: none;
-    border-radius: 50%;
+    border-radius: 30%;
     cursor: pointer;
     height: --range-thumb-size;
     width: --range-thumb-size;
