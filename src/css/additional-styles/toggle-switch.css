@@ -10,11 +10,11 @@
 }
 
 .form-switch label>span:first-child {
-    @apply absolute block rounded shadow;
-    width: 30px;
-    height: 30px;
-    top: 4px;
-    left: 4px;
+    @apply absolute block rounded-full shadow-md;
+    width: 40px;
+    height: 40px;
+    top: 3px;
+    left: 3px;
     right: 50%;
     transition: all .15s ease-out;
 }
